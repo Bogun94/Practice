@@ -1,0 +1,23 @@
+.sidenav {
+    height: 100%;
+    width: 15%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: inline-block;
+    h4 {
+        text-decoration: underline;
+    }
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: $side-nav-text;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: $text-color;
+    background-color: $side-nav-text;
+    cursor: pointer;
+}

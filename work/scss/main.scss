@@ -1,0 +1,18 @@
+//seminarski sass theme
+//base styles variables mixins etc
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+// modules individual site components
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+//Layouts page layout styles
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_sidenav.scss';
+@import 'layouts/_contact.scss';
+@import 'layouts/_newsletter.scss';

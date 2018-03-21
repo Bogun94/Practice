@@ -1,0 +1,77 @@
+.contact-form {
+    margin-top: 25px;
+    * {
+        box-sizing: border-box;
+    }
+    .container-form {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    .brand {
+        text-align: center;
+    }
+    .brand span {
+        color: $contact-form-text-lite;
+    }
+    .wrapper {
+        box-shadow: $contact-shadow;
+    }
+    .wrapper>* {
+        padding: 1em;
+    }
+    .company-info {
+        background: $contact-form;
+        color: $contact-form-text-lite;
+        a {
+            color: $text-color-white;
+        }
+    }
+    .company-info h3,
+    .company-info ul {
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+    .contact {
+        background: $contact-form-lite;
+    }
+    .contact form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .contact form label {
+        display: block;
+    }
+    .contact form p {
+        margin: 0;
+    }
+    .contact form .full {
+        grid-column: 1/3;
+    }
+    .contact form button,
+    .contact form input,
+    .contact form textarea {
+        width: 100%;
+        padding: 1em;
+        border: 1px solid $contact-form-lite;
+    }
+    .contact form button {
+        background: $contact-form;
+        border: 0;
+        text-transform: uppercase;
+        color: $contact-form-text-lite;
+    }
+    .contact form button:hover,
+    .contact form button:focus {
+        background: $contact-form-button;
+        color: $contact-form-text;
+        outline: 0;
+        transition: background-color 2s ease-out;
+    }
+}

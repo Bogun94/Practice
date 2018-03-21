@@ -1,0 +1,41 @@
+ul.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $bg-color-nav;
+    li {
+        float: left;
+        a {
+            display: block;
+            color: $text-color-nav;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        a:hover:not(.active) {
+            background-color: $nav-color;
+        }
+        a.active {
+            background-color: $main-color;
+        }
+        .fa {
+            color: $text-color-white;
+        }
+        .fa.active {
+            color: $text-color-white;
+        }
+    }
+    li.right {
+        float: right;
+    }
+    .icon {
+        display: none;
+        cursor: pointer;
+    }
+}

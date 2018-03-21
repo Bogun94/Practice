@@ -1,0 +1,59 @@
+.mySlides {
+    display: none;
+}
+
+.img1 {
+    /* The image used */
+    background-image: url("../img/slider.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    /* The image used */
+    background-image: url("../img/slider1.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    /* The image used */
+    background-image: url("../img/slider2.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase {
+    position: absolute;
+    background: $header-text;
+    color: $text-color-nav;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    p {
+        font-size: 20px;
+    }
+}

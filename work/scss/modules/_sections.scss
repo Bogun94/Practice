@@ -1,0 +1,49 @@
+.full-section {
+    background-size: auto;
+    color: $section-text;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    overflow: auto;
+    h2 {
+        font-size: 2.5em;
+        text-decoration-line: underline;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 1em;
+        margin: 10px 20px;
+    }
+}
+
+.white-section {
+    background-color: $section-color-1;
+    color: $text-color;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/after-about.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1 {
+    /* The image used */
+    background-image: url("../img/after-team.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

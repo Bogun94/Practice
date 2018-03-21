@@ -1,0 +1,100 @@
+.services-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: $section-text;
+    h3 {
+        margin: 20px 20px;
+    }
+    .fa {
+        border: 3px solid $border-color;
+        padding: 10px;
+    }
+}
+
+.service-block {
+    float: left;
+    display: inline;
+    width: 47%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 7%;
+    h3,
+    p {
+        padding: 0 20px;
+    }
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.team-block {
+    margin-top: 10%;
+}
+
+.top-margin {
+    margin-top: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    padding-right: 0;
+    background-color: $section-color-1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: $news-shadow;
+    overflow: auto;
+    h2 {
+        text-decoration: underline;
+    }
+    .warp-right {
+        width: 20%;
+    }
+}
+
+.container-news {
+    width: 80%;
+    padding: 10px 20px;
+    float: left;
+    position: relative;
+    border-right: 0.01em solid $border-color-news;
+    text-align: justify;
+    text-justify: inter-word;
+    h4 {
+        margin: 40px 0;
+    }
+}
+
+.news-block {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.news-line {
+    min-height: 290px;
+    margin: 10px 0;
+}
+
+.main-news {
+    margin: 10% 20px;
+    .warp-right {
+        width: 20%;
+    }
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}

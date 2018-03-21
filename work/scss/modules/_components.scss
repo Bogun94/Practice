@@ -1,0 +1,104 @@
+.canvas {
+    width: 300px;
+    height: 150px;
+}
+
+.team-heads {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 20px;
+    display: inline-block;
+    img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+        cursor: pointer;
+    }
+}
+
+.team-heads-main {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-right: 3%;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+        border-radius: 50%;
+        width: 100%;
+        padding: 3px;
+    }
+}
+
+.active {
+    border: 2px solid $main-color;
+}
+
+.active-menu {
+    background-color: $bg-color-nav;
+    color: $text-color-nav;
+}
+
+.marko {
+    display: block;
+}
+
+.dusan {
+    display: none;
+}
+
+.bojan {
+    display: none;
+}
+
+.team-text {
+    margin: 30px 40px;
+    text-align: left;
+    h3 {
+        margin-left: 20px;
+    }
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.floating {
+    display: inline-block;
+}
+
+.warp-right {
+    float: right;
+    margin: 10px;
+}
+
+.warp-left {
+    float: left;
+    margin: 10px;
+}
+
+//read more
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+    background-color: $main-color;
+    border: none;
+    color: $section-text;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.content-center {
+    text-align: center;
+}

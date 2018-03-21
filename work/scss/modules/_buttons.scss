@@ -1,0 +1,81 @@
+//social media buttons
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -130px;
+    top: 230px;
+    width: 210px;
+    z-index: 1100;
+    .fa {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.sticky li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.sticky li:hover {
+    margin-left: -115px;
+}
+
+.sticky li .fa {
+    float: left;
+    margin: 4px 4px;
+    margin-right: 7px;
+    color: $social;
+}
+
+.sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    padding-left: 12px;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.sticky li p a {
+    text-decoration: none;
+    color: #2C3539;
+}
+
+.sticky li p a:hover {
+    text-decoration: underline;
+}
+
+//end
+//button
+.button {
+    background-color: $main-color;
+    border: none;
+    color: $section-text;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-wrap {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.clearfix {
+    clear: both;
+    box-sizing: border-box;
+}

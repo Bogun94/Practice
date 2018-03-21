@@ -1,0 +1,31 @@
+.newsletter {
+    display: inline-block;
+    h2 {
+        margin-top: 0;
+        text-decoration: underline;
+    }
+    .container-newsletter {
+        padding: 20px;
+        float: left;
+        border: 3px solid $newsletter-border;
+    }
+    input.news[type=text],
+    input.news-btn[type=submit] {
+        padding: 12px;
+        margin: 8px 0;
+        display: inline;
+        border: 1px solid $newsletter-border;
+        box-sizing: border-box;
+    }
+    input.news-cbx[type=checkbox] {
+        display: inline;
+    }
+    input.news-btn[type=submit] {
+        background-color: $main-color;
+        color: $newsletter-text;
+        border: none;
+    }
+    input.news-btn[type=submit]:hover {
+        opacity: 0.8;
+    }
+}
